@@ -15,7 +15,7 @@ except IndexError:
 except:
 	exit("Couldn't open file \""+sys.argv[1]+"\".")
 
-# Uncomment and your work in the appropriate spots.
+# Uncomment, and add your work in the appropriate spots.
 argSwitcher = {
 #	'-s': NAMES OF SYSTEMS VISITED
 #	'-p': NAMES OF PLANETS SCANNED
