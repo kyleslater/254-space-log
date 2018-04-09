@@ -4,12 +4,12 @@
 
 from sys import argv
 import fuel
-<<<<<<< HEAD
+#<<<<<<< HEAD
 import lightYears
-
-=======
+import terraform
+#=======
 import planets
->>>>>>> b4c415e98a3b6cbfe37db40aac11f0f470690ba6
+#>>>>>>> b4c415e98a3b6cbfe37db40aac11f0f470690ba6
 # Opens the log file and grabs the contents.
 try:
 	fh = open(argv[1], 'r')
@@ -23,8 +23,8 @@ except:
 # Uncomment, and add your work in the appropriate spots.
 argSwitcher = {
 #	'-s': NAMES OF SYSTEMS VISITED
-#	'-p': planets.print_planets
-#	'-t': TOTAL NUMBER OF TERRAFORMABLE PLANETS SCANNED
+	'-p': planets.print_planets
+	'-t': terraform.terraformable
 	'-d': lightYears.get_total_distance
 	'-f': fuel.get_total_fuel,	# The example.
 }
