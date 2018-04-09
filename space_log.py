@@ -22,7 +22,7 @@ except:
 
 # Uncomment, and add your work in the appropriate spots.
 argSwitcher = {
-#	'-s': NAMES OF SYSTEMS VISITED
+	'-s': systems.solar_systems
 	'-p': planets.print_planets
 	'-t': terraform.terraformable
 	'-d': lightYears.get_total_distance
